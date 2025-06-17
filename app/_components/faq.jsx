@@ -56,7 +56,12 @@ export default function FAQ() {
 
   return (
 
-    <Accordion type="single" collapsible className="w-full max-w-3xl mx-auto">
+    <Accordion type="single" collapsible className="w-full max-w-3xl w-full 
+             sm:max-w-sm 
+             md:max-w-2xl 
+             lg:max-w-3xl 
+             xl:max-w-4xl 
+             mx-auto">
       <h1 className="text-3xl font-bold text-purple-700 p-4 mb-4 text-center">Most Frequent Asked Questions</h1>
 
       {faqs.map((faq, index) => (
