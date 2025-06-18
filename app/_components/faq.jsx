@@ -57,8 +57,8 @@ export default function FAQ() {
   return (
 
     <Accordion type="single" collapsible className="w-full max-w-3xl w-full 
-             ml-4 mr-4       // default (small screens)
-             sm:ml-6 sm:mr-6 // ≥640px
+             ml-6 mr-6     // default (small screens)
+             sm:ml-8 sm:mr-10 // ≥640px
              md:ml-12 md:mr-12 // ≥768px
              lg:ml-24 lg:mr-24 // ≥1024px
              xl:ml-auto xl:mr-auto">
