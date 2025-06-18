@@ -57,11 +57,11 @@ export default function FAQ() {
   return (
 
     <Accordion type="single" collapsible className="w-full max-w-3xl w-full 
-             sm:max-w-sm 
-             md:max-w-2xl 
-             lg:max-w-3xl 
-             xl:max-w-4xl 
-             mx-auto">
+             ml-4 mr-4       // default (small screens)
+             sm:ml-6 sm:mr-6 // ≥640px
+             md:ml-12 md:mr-12 // ≥768px
+             lg:ml-24 lg:mr-24 // ≥1024px
+             xl:ml-auto xl:mr-auto">
       <h1 className="text-3xl font-bold text-purple-700 p-4 mb-4 text-center">Most Frequent Asked Questions</h1>
 
       {faqs.map((faq, index) => (
